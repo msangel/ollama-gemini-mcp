@@ -1,4 +1,5 @@
 ### Prerequirements
+Використовуємо unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF:UD-Q4_K_XL замість стандартного qwen3-coder:30b Q4_K_M, бо у Qwen3-Coder 30B є відомий баг ненадійного tool calling з пропуском <tool_call> тегу [#475](https://github.com/QwenLM/Qwen3-Coder/issues/475), а Unsloth-збірка містить оновлений template/tool-calling fixes і кращу 4-bit dynamic quantization.
 ```
 ollama pull hf.co/unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF:UD-Q4_K_XL
 ```
