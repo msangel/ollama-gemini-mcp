@@ -11,10 +11,11 @@ uv pip install --python .venv/bin/python 'mcp[cli]' google-genai
 ```
 
 ### Raw api sample to search
+Get your API key at https://aistudio.google.com/app/api-keys
 ```
 curl "https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent" \
   -H 'Content-Type: application/json' \
-  -H 'X-goog-api-key: YOUR_TOKEN' \
+  -H 'X-goog-api-key: YOUR__API_KEY' \
   -X POST \
   -d '{
     "contents": [
