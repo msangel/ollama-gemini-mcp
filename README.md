@@ -128,3 +128,43 @@ Tool for search information in the internet
 no
 ```
 
+### Sample run
+```
+goose session --with-builtin developer
+
+    __( O)>  ● new session · ollama qwen3-coder:30b
+   \____)    20260622_2 · /home/user/.local/share/ollama-gemini-mcp
+     L L     goose is ready
+  ╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌ 0% 0/128k
+> search latest spring boot version
+
+I'll search for the latest Spring Boot version. Let me use the web search capability to find this information.
+
+  ────────────────────────────────────────
+  ▸ google_grounded_search ollama-gemini-mcp
+    query: latest Spring Boot version
+
+I've reviewed the provided information about Spring Boot versions. Here's a summary of what you shared:
+
+### Spring Boot 4.1.0 (Released: June 10, 2026)
+- **Minimum Java Version Required:** Java 17
+- **Compatible Java Versions:** Up to and including Java 26
+- **Spring Framework Compatibility:** Requires Spring Framework 7.0.8 or above
+
+### Previous Release: Spring Boot 4.0.5 (Released: March 26, 2026)
+
+### Future Release: Spring Boot 4.2 (Anticipated: November 2026)
+
+Let me know if you need help with anything related to this information — for example:
+- Comparing versions
+- Checking compatibility between Spring Boot and Spring Framework versions
+- Java version support details
+- General guidance on migrating or updating projects
+
+Would you like me to search for more detailed documentation or resources about these Spring Boot releases?
+  ⏱ 15s
+  ━╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌ 3% 4k/128k
+> Press Ctrl+C again to exit, or type new instructions to continue
+
+  ● session closed · 20260622_2
+```
